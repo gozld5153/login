@@ -67,3 +67,137 @@ body {
   cursor: pointer;
 }
 
+.login_err_msg {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.signBox {
+  background-color: #FF865E;
+  height: 50vh;
+  width: 60vh;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+
+.inputContainer {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+.box {
+  width: 50%;
+  height: 2.5rem;
+  background-color: #FEF9EF;
+  line-height: 2.5rem;
+  padding: 0 1rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.inputContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #FEF9EF;
+}
+
+.pushId {
+  display: flex;
+  padding-right:0;
+}
+
+.pushId > button {
+  border-radius: 20px;
+  width: 5rem;
+  border: none;
+  outline: none;
+  background-color: #6ECB63;
+  color: #E1E8EB
+}
+
+.pushId > button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signBtn {
+  background-color: #FEF9EF;
+  width: 15%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.signBtn > button {
+  border: none;
+  outline: none;
+  background-color: #FEF9EF;
+  
+}
+
+.signBtn >button:hover {
+  cursor: pointer;
+}
+
+.err {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.middleContainer{
+  width: 80vh;
+  height: 80vh;
+  background-color: #FF865E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.infoContainer{
+  width: 40%;
+}
+
+.infoContainer div {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.infoContainer div p {
+  line-height: 50px;
+  margin-left: 0.5rem;
+
+}
+
+.logoutBtnBox, .myInfoBox {
+  justify-content: center;
+  background-color: #FEF9EF;
+  border-radius: 20px;
+}
+
+.logoutBtn, .myInfoBtn {
+  border: none;
+  background-color: #FEF9EF;
+  height: 2.5rem;
+  font-size : 1rem;
+}
+
+.logoutBtn:hover, .myInfoBtn:hover {
+  cursor: pointer
+}
+
+.remove {
+  display: none !important;
+}
+

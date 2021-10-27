@@ -14,7 +14,7 @@ module.exports = async (req, res) => {
    }
    else {
       delete data.dataValues.password
-      const accessToken = jwt.sign(data.dataValues, process.env.SECRET_KEY, {expiresIn: '60s'})
+      const accessToken = jwt.sign(data.dataValues, process.env.SECRET_KEY, {expiresIn: '5m'})
       res.cookie('token', accessToken)
 
       res.status(200).send("ok")

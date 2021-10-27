@@ -18,6 +18,7 @@ app.use(cors({
 app.post("/checkid", controllers.checkID)
 app.post("/signin", controllers.signIn)
 app.post("/login", controllers.login)
+app.get("/myinfo", controllers.myInfo)
 
 
 
